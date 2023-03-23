@@ -1,4 +1,59 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+.heading{
+    box-shadow: 0 0 10px 0 black;
+}
+.logo{
+    font-size: 2.5em;
+    color: black;
+}
+.body{
+    position: relative;
+    display: flex;
+}
 
+.photos{
+    text-align: center;
+    display: grid;
+    align-item: center;
+    /* background-color: #eeeee4; */
+    color: black;
+    front-size: 2.5em;
+    box-shadow: 5px 5px 5px 5px black;
+    margin: 50px 50px 50px 50px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    /* padding: 50px; */
+    width: 95%;
+    height: 800%;
+}
+
+.note h1{
+    font-size: 4em;
+    color: #5d200d;
+    text-align: center;
+}
+
+/* .note p{
+    font-sixe: 1.5em;
+    margin-bottom: 10px;
+    padding: 40px;
+    margin: 10px
+} */
+
+.footer{
+    bottom:0;
+    left:0;
+    width:100%;
+    height: 90px;
+    text-align: center;
+}
+
+img{
+    /* text-align: center;
+    width: 80%;
+    height: 100%; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height:100%
+}

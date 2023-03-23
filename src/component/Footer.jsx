@@ -4,8 +4,8 @@ function Footer(){
     const date = new Date();
     const currentYear = date.getFullYear();
     return(
-        <div>
-            <p className="footer">Copyright @ {currentYear}</p>
+        <div className="footer">
+            <p className="footer">Copyright ⓒ {currentYear}</p>
         </div>
     );
 
