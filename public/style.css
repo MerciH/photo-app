@@ -17,7 +17,7 @@
     /* background-color: #eeeee4; */
     color: black;
     front-size: 2.5em;
-    box-shadow: 5px 5px 5px 5px black;
+    box-shadow: 5px 5px 5px 5px #5d200d;
     margin: 50px 50px 50px 50px;
     white-space: pre-wrap;
     word-wrap: break-word;
@@ -56,4 +56,17 @@ img{
     margin-right: auto;
     width: 100%;
     height:100%
+}
+button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  color: #5d200d;
+  border-radius: 5px;
+  width: 250px;
+  border-color: #eeeee4;
+  border-shadow: 3px 3px 3px 3px #eeeee4;
+  font-size: 18px;
+  margin-bottom: 50px
+
 }
